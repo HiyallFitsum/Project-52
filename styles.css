@@ -51,18 +51,6 @@
 
 }*/
 
-.item p {
-    position: absolute;
-    top: 50%;
-    left: 46%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-}
-
-.item:hover p{
-    opacity: 1;
-}
-
 a:link{
     color: white;
 }
@@ -73,7 +61,28 @@ a:visited{
 
 .origami:hover{
 
+    position: absolute;
     transform: scale(1.2);
     opacity: 0.75;
+}
+
+.bodyimg{ 
+    position: relative; 
+} 
+.bodyimg p{ 
+    color:#f7f2f2; 
+    font-size: 55px; 
+    font-family: fantasy; 
+    position: absolute; 
+    top:10%; 
+    left:50%; 
+    transform: translate(-50%,-50%); 
+}
+
+.footer{
+    position: absolute;
+    top: 90%;
+    left: 22%;
+    color: #ffffff;
 }
 
